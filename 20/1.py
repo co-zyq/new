@@ -42,7 +42,6 @@ class Poker:
     @property
     def has_next(self):
         return self.current < len(self.cards)
-
 #poker = Poker()
 #print(poker.cards)  # 洗牌前的牌
 #poker.shuffle()
