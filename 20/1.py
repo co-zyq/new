@@ -21,7 +21,10 @@ class Card:
         color='♠♥♣♦'
         number = ['', 'A', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K']
         return f'{color[self.color.value]}{number[self.number]}' 
-
+    def __lt__(self,other):
+        if self.color == other.color:
+            return self.number < other.number
+        return self.color.value < other.color.value
 
 class Poker:
     def __init__(self):
