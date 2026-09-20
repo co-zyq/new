@@ -1,0 +1,14 @@
+{
+    "python.analysis.extraPaths": [
+        "/Users/zyq/.kendryte/k230_canmv_stubs/b3211026add55b02dad803f6ec7b19e3fb978acf",
+        "/var/folders/78/203mdtdj0qj49hpt7f_4bk0c0000gn/T/canmv-vscode-zyq/56df5c7392d81879/remote",
+        "/var/folders/78/203mdtdj0qj49hpt7f_4bk0c0000gn/T/canmv-vscode-zyq/56df5c7392d81879/remote/sdcard",
+        "/var/folders/78/203mdtdj0qj49hpt7f_4bk0c0000gn/T/canmv-vscode-zyq/56df5c7392d81879/remote/data",
+        "/var/folders/78/203mdtdj0qj49hpt7f_4bk0c0000gn/T/canmv-vscode-zyq/56df5c7392d81879/remote/udisk",
+        "/var/folders/78/203mdtdj0qj49hpt7f_4bk0c0000gn/T/canmv-vscode-zyq/56df5c7392d81879/remote/sdcard/examples/01-Micropython-Basics"
+    ],
+    "python.analysis.stubPath": "/Users/zyq/.kendryte/k230_canmv_pylance/56df5c7392d81879/typings",
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportMissingModuleSource": "none"
+    }
+}
