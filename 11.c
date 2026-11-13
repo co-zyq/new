@@ -27,7 +27,6 @@ int main(){
 //利用海伦公式确保输入的是三个数字 
     if(r != 3){
         printf("输入错误必须输入3个数字\n");
-        while(getchar()!='\n'); 
     }
 //检查是否能构成三角形
     if (check(a, b, c)) {
